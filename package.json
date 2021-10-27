@@ -1,0 +1,20 @@
+{
+  "name": "apollo-express",
+  "version": "1.0.0",
+  "description": "Apollo express example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r ts-node/register ./server.ts"
+  },
+  "author": "bestguy",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-core": "^3.4.0",
+    "apollo-server-express": "^3.4.0",
+    "express": "^4.17.1",
+    "graphql": "^15.6.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0"
+  }
+}
